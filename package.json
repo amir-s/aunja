@@ -1,0 +1,23 @@
+{
+  "name": "aunja",
+  "version": "0.0.2",
+  "description": "print the time in different timezones",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-s/aunja.git"
+  },
+  "author": "Amir Saboury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amir-s/aunja/issues"
+  },
+  "bin": {
+    "aunja": "./bin/aunja"
+  },
+  "homepage": "https://github.com/amir-s/aunja#readme",
+  "dependencies": {
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31"
+  }
+}
